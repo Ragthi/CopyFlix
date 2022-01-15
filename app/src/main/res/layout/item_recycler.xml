@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:id="@+id/movie_photo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textSize="22dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@color/yellow"
+        android:id="@+id/movie_name"/>
+    <TextView
+        android:id="@+id/movie_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Something about movie like star cast their roles and type of movie etc now just typing to check the max limit"
+
+        android:layout_marginTop="10dp"
+        android:maxLines="3"
+        android:maxLength="300"
+        android:ellipsize="end"
+        />
+
+
+</LinearLayout>

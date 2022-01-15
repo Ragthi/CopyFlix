@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CopyFlix</string>
+    <string name="title_activity_bottom_navigation">bottom_navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Search</string>
+    <string name="length"><b>Length</b></string>
+    <string name="summary"><b>Summary:</b></string>
+
+</resources>
